@@ -23,7 +23,7 @@ h2{
 .pimg1
 {
     background-image: url("2.jpg");
-    min-height: 100%;
+    min-height: 50%;
 }
 .pimg2
 {
@@ -83,15 +83,24 @@ h2{
 {
     background-color: transparent;
 }
-@media(max-width:650px)
+@media(max-width:898px)
 {
     .pimg1, .pimg2, .pimg3, .pimg4
     {
         background-attachment: scroll;
+        width: 100vw;
+        height: 100px;
     }
     .ptext .border
     {
-        width: 80%;
-        font-size: 12px;
+           font-size: 12px;
     }
+    .section ,.section-light
+    {
+        height: 50vh;
+        padding: 10px;
+        overflow:hidden;
+        font-size: 85%;
+    }
+    
 }
